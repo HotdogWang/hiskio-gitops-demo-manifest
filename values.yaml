@@ -9,4 +9,4 @@ nginx:
     tag: 4439d34
   pullPolicy: Always
   prefix: ch3-demo
-hook: false
+hook: true
