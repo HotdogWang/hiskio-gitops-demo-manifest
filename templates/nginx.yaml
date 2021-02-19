@@ -13,6 +13,8 @@ spec:
         app: nginx
     spec:
       containers:
+
+          hahaha
       - name: nginx
         image: {{ .Values.nginx.image.repo }}:{{ .Values.nginx.image.tag }}
         ports:
