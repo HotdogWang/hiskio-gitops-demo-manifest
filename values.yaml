@@ -8,5 +8,5 @@ nginx:
     repo: hwchiu/hiskio-gitops
     tag: 4439d34
   pullPolicy: Always
-  prefix: webhook-demo
+  prefix: webhook-demo-again
 hook: true
