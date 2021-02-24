@@ -1,0 +1,27 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: rbac
+  namespace: default
+spec:
+  encryptedData:
+    index: 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
+  template:
+    metadata:
+      creationTimestamp: null
+      managedFields:
+      - apiVersion: v1
+        fieldsType: FieldsV1
+        fieldsV1:
+          f:data:
+            .: {}
+            f:stdin: {}
+          f:type: {}
+        manager: kubectl-create
+        operation: Update
+        time: "2021-02-24T07:38:07Z"
+      name: rbac
+      namespace: default
+    type: Opaque
+

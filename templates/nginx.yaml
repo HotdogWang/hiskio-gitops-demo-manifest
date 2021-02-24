@@ -30,6 +30,8 @@ spec:
         volumeMounts:
         - name: index-html
           mountPath: /var/www/html/gitops/
+        - name: secret-html
+          mountPath: /var/www/html/secret/
       volumes:
       - name: index-html
         configMap:
@@ -37,3 +39,9 @@ spec:
           items:
           - key: index
             path: index.html
+      - name: secret-html
+        secret:
+          secretName: rbac
+          items:
+          - key: index
+            path: secret.html
