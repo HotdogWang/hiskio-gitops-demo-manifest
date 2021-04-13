@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: hwchiu/hiskio-gitops:4439d34
+        image: hwchiu/hiskio-gitops:latest
         ports:
         - name: http
           containerPort: 80
